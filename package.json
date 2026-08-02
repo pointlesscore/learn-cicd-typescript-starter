@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "dist/main.js",
   "type": "module",
+  "packageManager": "npm@10.9.7",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
